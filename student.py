@@ -15,6 +15,9 @@ class Student:
         self.root=root
         self.root.geometry("1900x1200+0+0")
         self.root.title("Face Recoginition System")
+        # self.root=Tk()
+        self.root.title("Student")
+        self.root.iconbitmap(r"Images\logo.ico")
         
         # =======================VRIABLES===================
         self.var_dep=StringVar()

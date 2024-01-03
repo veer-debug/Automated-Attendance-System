@@ -20,6 +20,9 @@ class Face_Recogination_System:
         self.root=root
         self.root.geometry("1900x1200+0+0")
         self.root.title("Face Recoginition System")
+        self.root.title("Home Page")
+        self.root.iconbitmap(r"Images\logo.ico")
+        
         # --------------------------------------------------------------
         
         img1=Image.open(r"C:\Users\theve\OneDrive\Desktop\Folders\SE\final_project\Images\14.jpg")

@@ -18,6 +18,9 @@ class train:
         self.root=root
         self.root.geometry("1900x1200+0+0")
         self.root.title("Face Recoginition System")
+        self.root.title("Tranning")
+        self.root.iconbitmap(r"Images\logo.ico")
+        
         
         title_ibl=Label(self.root,text="TRAIN DATA SET",font=("times new roman",35,"bold"),bg="white",fg="red")
         title_ibl.place(x=-3,y=0,width=1530,height=45)

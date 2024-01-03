@@ -13,6 +13,9 @@ class Devloper:
         self.root=root
         self.root.geometry("1900x1200+0+0")
         self.root.title("DEVLOPER")
+        self.root.title("Devloper")
+        self.root.iconbitmap(r"Images\logo.ico")
+        
         
         title_ibl=Label(self.root,text="#  😊 DEVELOPER 😊 #",font=("times new roman",35,"bold"),bg="white",fg="red")
         title_ibl.place(x=0,y=0,width=1530,height=45)
@@ -36,6 +39,7 @@ class Devloper:
         
         f_lb2=Label(bgimage,image=self.photoimg_left2)
         f_lb2.place(x=620,y=20,width=250,height=250)   
+        
         
         
         R6=Label(bgimage,text="Renveer Kumar, a dedicated Python developer, brings a wealth of expertise to the realm of full-stack development.",font=(" ",15,"bold"),bg="white",fg="black")

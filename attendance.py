@@ -23,6 +23,9 @@ class Attendance:
         self.root=root
         self.root.geometry("1900x1180+0+0")
         self.root.title("Face Recoginition System")
+        self.root.title("Students")
+        self.root.iconbitmap(r"Images\logo.ico")
+        
         # --------------------------------------------------------------------------------------------------
         img1=Image.open(r"C:\Users\theve\OneDrive\Desktop\Folders\SE\final_project\Images\13_home.webp")
         img1=img1.resize((500,140))

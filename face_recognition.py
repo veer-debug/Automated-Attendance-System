@@ -20,6 +20,9 @@ class Face_Recognition:
         self.root=root
         self.root.geometry("1900x1200+0+0")
         self.root.title("Face Recoginition System")
+        self.root.title("Attendance")
+        self.root.iconbitmap(r"Images\logo.ico")
+        
         
         title_ibl=Label(self.root,text="FACE RECOGNITION",font=("times new roman",35,"bold"),bg="white",fg="green")
         title_ibl.place(x=-3,y=0,width=1530,height=45)
