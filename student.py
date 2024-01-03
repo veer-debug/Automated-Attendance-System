@@ -17,7 +17,7 @@ class Student:
         self.root.title("Face Recoginition System")
         # self.root=Tk()
         self.root.title("Student")
-        self.root.iconbitmap(r"Images\logo.ico")
+        self.root.iconbitmap(r'C:\Users\theve\OneDrive\Desktop\Project_1\Automated-Attendance-System\Images\logo.ico')
         
         # =======================VRIABLES===================
         self.var_dep=StringVar()
@@ -37,7 +37,7 @@ class Student:
         self.var_radio1=StringVar()
         # self.var_radio2=StringVar()
         # --------------------------------------------------------------------------------------------------
-        img1=Image.open(r"Images\13_home.webp")
+        img1=Image.open("Images/13_home.webp")
         img1=img1.resize((500,130))
         self.photoimg1=ImageTk.PhotoImage(img1)
         
