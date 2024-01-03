@@ -21,7 +21,7 @@ class Face_Recogination_System:
         self.root.geometry("1900x1200+0+0")
         self.root.title("Face Recoginition System")
         self.root.title("Home Page")
-        self.root.iconbitmap(r"Images\logo.ico")
+        self.root.iconbitmap("Images/logo.ico")
         
         # --------------------------------------------------------------
         
